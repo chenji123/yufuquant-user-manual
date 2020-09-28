@@ -390,6 +390,44 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      附录
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="附录" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        附录
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../appendixes/pair/" title="交易对信息" class="md-nav__link">
+      交易对信息
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -483,7 +521,7 @@
 <p>渔夫量化系统存储的交易所凭据都已经过加密处理。此外，大部分交易所都支持设置凭据的接口访问权限（例如仅允许委托交易而不允许提币）、允许访问的 IP 白名单等。为了资金安全，请仔细遵照交易所的安全文档，妥善管理好凭据的使用权限。</p>
 </div>
 <h2 id="添加策略">添加策略<a class="headerlink" href="#添加策略" title="Permanent link">&para;</a></h2>
-<p>交易机器人需选定一种交易策略来执行交易，不同的交易策略对应不同的风险和收益。除了使用渔夫量化交易系统的内置策略以外，还可以添加任何遵循 <a href="">渔夫量化通用交易策略规范</a> 的自定义策略。</p>
+<p>交易机器人需选定一种交易策略来执行交易，不同的交易策略对应不同的风险和收益。除了使用渔夫量化交易系统的内置策略以外，还可以添加任何遵循 <a href="https://yufuquant.github.io/yufuquant/specification/">渔夫量化策略规范</a> 的自定义策略。</p>
 <p>添加策略的步骤：</p>
 <ol>
 <li>登录渔夫量化交易系统；</li>
@@ -496,7 +534,7 @@
 <p><img alt="" src="../screenshots/add_strategy.gif" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>「策略参数规格」必须遵循 <a href="">渔夫量化通用交易策略规范</a>，作为起步可以参考 <a href="">这个例子</a>。</p>
+<p>「策略参数规格」必须遵循 <a href="https://yufuquant.github.io/yufuquant/specification/">渔夫量化策略规范</a>，作为起步可以参考 <a href="https://yufuquant.github.io/yufuquant/specification/#%E7%A4%BA%E4%BE%8B">这个例子</a>。</p>
 </div>
 <h2 id="创建机器人">创建机器人<a class="headerlink" href="#创建机器人" title="Permanent link">&para;</a></h2>
 <p>接入交易所和添加策略后，就可以创建交易机器人。</p>
@@ -511,10 +549,11 @@
 <p>👇 演示了整个操作流程：</p>
 <p><img alt="" src="../screenshots/add_robot.gif" /></p>
 <h2 id="启动机器人">启动机器人<a class="headerlink" href="#启动机器人" title="Permanent link">&para;</a></h2>
-<p>参考示例。</p>
+<p>渔夫系统暂时还不支持自动启动机器人。在渔夫系统创建好机器人后，需要手动启动机器人（本质上就是启动一个程序或者脚本）。不同的策略有不同的启动命令，作为体验，你可以参考 yufuquant-bot 的 <a href="https://github.com/yufuquant/yufuquant-bot/tree/master/demo">官方示例</a> 启动一个演示机器人。</p>
+<p>我们正在开发和增强机器人模块的功能，后续版本将支持直接从渔夫量化系统一键启动机器人。</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>机器人运行过程中，可以 <a href="">监控机器人运行状态</a> 和 <a href="">调整交易策略参数</a>。</p>
+<p>机器人运行过程中，可以 <a href="../robot/#监控机器人运行状态">监控机器人运行状态</a> 和 <a href="../robot/#调整策略参数">调整策略参数</a>。</p>
 </div>
 <p>💐 恭喜！你已成功开启了渔夫数字货币量化交易之旅。</p>
                 

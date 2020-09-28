@@ -17,7 +17,7 @@
     
     
       
-        <title>账户 - 渔夫量化用户手册</title>
+        <title>交易对信息 - 渔夫量化用户手册</title>
       
     
     
@@ -51,7 +51,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#账户" class="md-skip">
+        <a href="#交易对" class="md-skip">
           跳转至
         </a>
       
@@ -79,7 +79,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              账户
+              交易对信息
             
           </span>
         </div>
@@ -237,12 +237,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       管理台
@@ -262,7 +260,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="介绍" class="md-nav__link">
+    <a href="../../admin/" title="介绍" class="md-nav__link">
       介绍
     </a>
   </li>
@@ -272,49 +270,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        账户
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="账户" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../admin/account/" title="账户" class="md-nav__link">
       账户
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#修改账户密码" class="md-nav__link">
-    修改账户密码
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -324,7 +284,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../auth_token/" title="认证令牌" class="md-nav__link">
+    <a href="../../admin/auth_token/" title="认证令牌" class="md-nav__link">
       认证令牌
     </a>
   </li>
@@ -336,7 +296,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../exchange/" title="交易所" class="md-nav__link">
+    <a href="../../admin/exchange/" title="交易所" class="md-nav__link">
       交易所
     </a>
   </li>
@@ -348,7 +308,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../robot/" title="机器人" class="md-nav__link">
+    <a href="../../admin/robot/" title="机器人" class="md-nav__link">
       机器人
     </a>
   </li>
@@ -360,7 +320,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../robot_asset_record/" title="机器人资产记录" class="md-nav__link">
+    <a href="../../admin/robot_asset_record/" title="机器人资产记录" class="md-nav__link">
       机器人资产记录
     </a>
   </li>
@@ -375,10 +335,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
     
     <label class="md-nav__link" for="nav-7">
       附录
@@ -396,11 +358,117 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../appendixes/pair/" title="交易对信息" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        交易对信息
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="交易对信息" class="md-nav__link md-nav__link--active">
       交易对信息
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bybit" class="md-nav__link">
+    Bybit
+  </a>
+  
+    <nav class="md-nav" aria-label="Bybit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#线性合约" class="md-nav__link">
+    线性合约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#反向合约" class="md-nav__link">
+    反向合约
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#币安" class="md-nav__link">
+    币安
+  </a>
+  
+    <nav class="md-nav" aria-label="币安">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#现货" class="md-nav__link">
+    现货
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#线性合约_1" class="md-nav__link">
+    线性合约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#反向永续合约" class="md-nav__link">
+    反向永续合约
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#火币" class="md-nav__link">
+    火币
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#okex" class="md-nav__link">
+    OKEx
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -433,8 +501,76 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#修改账户密码" class="md-nav__link">
-    修改账户密码
+  <a href="#bybit" class="md-nav__link">
+    Bybit
+  </a>
+  
+    <nav class="md-nav" aria-label="Bybit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#线性合约" class="md-nav__link">
+    线性合约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#反向合约" class="md-nav__link">
+    反向合约
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#币安" class="md-nav__link">
+    币安
+  </a>
+  
+    <nav class="md-nav" aria-label="币安">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#现货" class="md-nav__link">
+    现货
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#线性合约_1" class="md-nav__link">
+    线性合约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#反向永续合约" class="md-nav__link">
+    反向永续合约
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#火币" class="md-nav__link">
+    火币
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#okex" class="md-nav__link">
+    OKEx
   </a>
   
 </li>
@@ -451,7 +587,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/yufuquant/yufuquant/tree/master/docs/admin/account.md" title="编辑此页" class="md-content__button md-icon">
+                  <a href="https://github.com/yufuquant/yufuquant/tree/master/docs/appendixes/pair.md" title="编辑此页" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -459,18 +595,48 @@
                   
                 
                 
-                <h1 id="账户">账户<a class="headerlink" href="#账户" title="Permanent link">&para;</a></h1>
-<p>在部署渔夫数字货币量化系统时，数据库初始化脚本会生成一个默认的超级用户，生成后请立即登录管理台进行安全性相关的配置。</p>
-<h2 id="修改账户密码">修改账户密码<a class="headerlink" href="#修改账户密码" title="Permanent link">&para;</a></h2>
-<p>数据库初始化脚本生成的超级用户密码都是相同的，请在生成后立即登录管理台修改默认密码。</p>
-<p>修改账户密码的步骤：</p>
-<ol>
-<li>点击顶部导航条右上角的 『修改密码』选项；</li>
-<li>填写修改密码表单的各项数据；</li>
-<li>点击『修改我的密码』提交修改。</li>
-</ol>
-<p>👇 演示了整个修改密码的过程：</p>
-<p><img alt="" src="../../screenshots/account_change_password.gif" /></p>
+                <h1 id="交易对">交易对<a class="headerlink" href="#交易对" title="Permanent link">&para;</a></h1>
+<h2 id="bybit">Bybit<a class="headerlink" href="#bybit" title="Permanent link">&para;</a></h2>
+<h3 id="线性合约">线性合约<a class="headerlink" href="#线性合约" title="Permanent link">&para;</a></h3>
+<ul>
+<li>BTCUSDT</li>
+</ul>
+<h3 id="反向合约">反向合约<a class="headerlink" href="#反向合约" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>BTCUSD</p>
+</li>
+<li>
+<p>ETHUSD</p>
+</li>
+<li>EOSUSD</li>
+<li>XRPUSD</li>
+</ul>
+<h2 id="币安">币安<a class="headerlink" href="#币安" title="Permanent link">&para;</a></h2>
+<h3 id="现货">现货<a class="headerlink" href="#现货" title="Permanent link">&para;</a></h3>
+<ul>
+<li>BTCUSDT</li>
+<li>ETHUSDT</li>
+<li>EOSUSDT</li>
+<li>UNIUSDT</li>
+</ul>
+<h3 id="线性合约_1">线性合约<a class="headerlink" href="#线性合约_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>BTCUSDT</li>
+<li>ETHUSDT</li>
+<li>EOSUSDT</li>
+<li>UNIUSDT</li>
+</ul>
+<h3 id="反向永续合约">反向永续合约<a class="headerlink" href="#反向永续合约" title="Permanent link">&para;</a></h3>
+<ul>
+<li>BTCUSD_PERP</li>
+<li>ETHUSD_PERP</li>
+<li>EOSUSDT_PERP</li>
+</ul>
+<h2 id="火币">火币<a class="headerlink" href="#火币" title="Permanent link">&para;</a></h2>
+<p>开发中...</p>
+<h2 id="okex">OKEx<a class="headerlink" href="#okex" title="Permanent link">&para;</a></h2>
+<p>开发中...</p>
                 
               
               
@@ -489,7 +655,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../" title="介绍" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../admin/robot_asset_record/" title="机器人资产记录" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -498,25 +664,11 @@
                 <span class="md-footer-nav__direction">
                   上一页
                 </span>
-                介绍
+                机器人资产记录
               </div>
             </div>
           </a>
         
-        
-          <a href="../auth_token/" title="认证令牌" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  下一页
-                </span>
-                认证令牌
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
         
       </nav>
     </div>
