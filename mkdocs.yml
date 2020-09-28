@@ -23,9 +23,10 @@ nav:
       - 账户: "admin/account.md"
       - 认证令牌: "admin/auth_token.md"
       - 交易所: "admin/exchange.md"
-      #      - 机器人启动时间: "admin/robot_start_time.md"
+      - 机器人: "admin/robot.md"
       - 机器人资产记录: "admin/robot_asset_record.md"
-
+  - 附录:
+      - 交易对信息: "appendixes/pair.md"
 
 # Extensions
 markdown_extensions:
